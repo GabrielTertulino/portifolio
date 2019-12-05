@@ -1,0 +1,8 @@
+$(window).scroll(function () {
+    //console.log($(document).scrollTop());
+    if ($(document).scrollTop() >= 10) {
+        $('.canva-embed').attr( '<img src="https://marketplace-cdn.atlassian.com/files/images/f7d3a59d-5680-4f27-bcce-54a0f6780820.png"/>');
+    } else {
+        $('.img1').attr('<img src="https://marketplace-cdn.atlassian.com/files/images/f7d3a59d-5680-4f27-bcce-54a0f6780820.png"/>');
+    }
+}); 
